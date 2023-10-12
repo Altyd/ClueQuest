@@ -260,7 +260,189 @@ const cases = [
                     weapon: "The Silent Dart",
                     location: "The Enchanted Garden",
                 },
-            }
+            },
+            {
+                name: "The Enigmatic Mansion Murder",
+                suspects: [
+                    {
+                        name: "Evelyn",
+                        height: "5'6\"",
+                        handedness: "Right-handed",
+                        eyeColor: "Brown",
+                        hairColor: "Black",
+                        zodiacSign: "Scorpio",
+                    },
+                    {
+                        name: "Franklin",
+                        height: "6'1\"",
+                        handedness: "Left-handed",
+                        eyeColor: "Blue",
+                        hairColor: "Blonde",
+                        zodiacSign: "Libra",
+                    },
+                    {
+                        name: "Grace",
+                        height: "5'8\"",
+                        handedness: "Right-handed",
+                        eyeColor: "Green",
+                        hairColor: "Red",
+                        zodiacSign: "Aries",
+                    },
+                    {
+                        name: "Henry",
+                        height: "5'10\"",
+                        handedness: "Left-handed",
+                        eyeColor: "Hazel",
+                        hairColor: "Brown",
+                        zodiacSign: "Virgo",
+                    },
+                ],
+                weapons: [
+                    {
+                        name: "The Crystal Chalice",
+                        uniqueFeature: "Intricate engravings and a hidden compartment",
+                    },
+                    {
+                        name: "The Venomous Serpent",
+                        uniqueFeature: "A concealed, retractable blade",
+                    },
+                    {
+                        name: "The Muffled Pistol",
+                        uniqueFeature: "A silencer attachment",
+                    },
+                    {
+                        name: "The Whispering Necklace",
+                        uniqueFeature: "A hidden poison vial",
+                    },
+                ],
+                locations: [
+                    {
+                        name: "The Elegant Ballroom",
+                        physicalClue: "A torn piece of a red dress",
+                    },
+                    {
+                        name: "The Mysterious Study",
+                        physicalClue: "A shattered hourglass",
+                    },
+                    {
+                        name: "The Enchanted Conservatory",
+                        physicalClue: "A muddy footprint on a Persian rug",
+                    },
+                    {
+                        name: "The Secret Wine Cellar",
+                        physicalClue: "A half-empty glass of rare wine",
+                    },
+                ],
+                clues: [
+                    "Evelyn, with brown eyes, was last seen in the Elegant Ballroom with a torn piece of a letter.",
+                    "Franklin, left-handed, was overheard discussing ancient manuscripts in the Mysterious Study.",
+                    "A strand of black hair, unrelated to any suspect, was found in the Enchanted Conservatory.",
+                    "The Venomous Serpent was discovered in the Secret Wine Cellar, along with a shattered wine glass.",
+                    "Henry, with hazel eyes, was spotted with the Whispering Necklace in the Elegant Ballroom.",
+                    "Grace, right-handed, was seen in the Enchanted Conservatory wearing gloves, though she despises gardening.",
+                    "The Muffled Pistol was found hidden behind a bookshelf in the Mysterious Study.",
+                    "Evelyn, a Scorpio, was heard arguing with Franklin, a Libra, in the Elegant Ballroom about a family inheritance.",
+                    "Henry, left-handed, was seen exiting the Elegant Ballroom looking anxious.",
+                    "Grace, an Aries, was found admiring the rare orchids in the Enchanted Conservatory.",
+                    "A torn piece of a letter, with the letters 'SER,' was discovered in the Secret Wine Cellar.",
+                ],
+                solution: {
+                    murderer: "Evelyn",
+                    weapon: "The Crystal Chalice",
+                    location: "The Elegant Ballroom",
+                }
+            },
+            {
+                name: "The Garden of Deceit",
+                suspects: [
+                    {
+                        name: "Isabella",
+                        height: "5'7\"",
+                        handedness: "Right-handed",
+                        eyeColor: "Brown",
+                        hairColor: "Brunette",
+                        zodiacSign: "Pisces",
+                    },
+                    {
+                        name: "Jackson",
+                        height: "6'0\"",
+                        handedness: "Left-handed",
+                        eyeColor: "Green",
+                        hairColor: "Blonde",
+                        zodiacSign: "Sagittarius",
+                    },
+                    {
+                        name: "Lily",
+                        height: "5'5\"",
+                        handedness: "Right-handed",
+                        eyeColor: "Blue",
+                        hairColor: "Red",
+                        zodiacSign: "Leo",
+                    },
+                    {
+                        name: "Oliver",
+                        height: "5'9\"",
+                        handedness: "Left-handed",
+                        eyeColor: "Hazel",
+                        hairColor: "Brown",
+                        zodiacSign: "Gemini",
+                    },
+                ],
+                weapons: [
+                    {
+                        name: "The Enigmatic Vase",
+                        uniqueFeature: "An intricate floral pattern with a hidden compartment",
+                    },
+                    {
+                        name: "The Serene Statue",
+                        uniqueFeature: "A detachable marble head",
+                    },
+                    {
+                        name: "The Whispering Breeze",
+                        uniqueFeature: "A concealed blade disguised as a fan",
+                    },
+                    {
+                        name: "The Tranquil Torch",
+                        uniqueFeature: "A secret compartment for flammable liquid",
+                    },
+                ],
+                locations: [
+                    {
+                        name: "The Rose Arbor",
+                        physicalClue: "A muddy footprint near a rosebush",
+                    },
+                    {
+                        name: "The Tranquil Pond",
+                        physicalClue: "A wet handkerchief left behind",
+                    },
+                    {
+                        name: "The Enchanted Gazebo",
+                        physicalClue: "A broken string of fairy lights",
+                    },
+                    {
+                        name: "The Moonlit Bridge",
+                        physicalClue: "A crumpled love letter",
+                    },
+                ],
+                clues: [
+                    "Isabella, with brown eyes, was last seen in the Rose Arbor with a torn piece of a mysterious note.",
+                    "Jackson, left-handed, was overheard discussing a rare painting in the Tranquil Pond area.",
+                    "A strand of blonde hair, unrelated to any suspect, was found in the Enchanted Gazebo.",
+                    "The Whispering Breeze was discovered in the Moonlit Bridge area, along with a discarded fan.",
+                    "Oliver, with hazel eyes, was spotted with the Tranquil Torch near the Enchanted Gazebo.",
+                    "Lily, right-handed, was seen in the Rose Arbor wearing gardening gloves, though she claimed she never wears them.",
+                    "The Serene Statue was found hidden beneath a blanket in the Tranquil Pond area.",
+                    "Isabella, a Pisces, was heard arguing with Jackson, a Sagittarius, near the Enchanted Gazebo about a secret romance.",
+                    "Oliver, left-handed, was seen exiting the Rose Arbor looking anxious.",
+                    "Lily, a Leo, was found drawing in her sketchbook near the Moonlit Bridge, despite having no interest in art.",
+                    "A crumpled love letter, with the initials 'I+L,' was discovered near the Tranquil Pond.",
+                ],
+                solution: {
+                    murderer: "Lily",
+                    weapon: "The Enigmatic Vase",
+                    location: "The Rose Arbor",
+                }
+            }                   
 ];
 let currentCase = null;
 

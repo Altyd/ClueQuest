@@ -11,6 +11,10 @@
 
     <div id="mystery-case">
         <h2>Case Details</h2>
+        <div>
+            <p>Case Description:
+                In this serene case, a heinous murder has taken place, shrouded in mystery. Four suspects, each with distinct characteristics, four weapons, each with a unique feature, and four locations of this perplexing case. Can you unravel the truth and identify the murderer, weapon, and location?</p>
+        </div>
         <div id="suspects">
             <h3>Suspects</h3>
             <ul id="suspect-list"></ul>
@@ -32,32 +36,31 @@
     <div id="user-guess">
         <h2>Your Guess</h2>
         <form id="guess-form">
-<!-- Replace text inputs with dropdowns -->
-<label for="murderer">Murderer:</label>
-<select id="murderer">
-    <option value="Suspect A">Suspect A</option>
-    <option value="Suspect B">Suspect B</option>
-    <option value="Suspect C">Suspect C</option>
-    <option value="Suspect D">Suspect D</option>
-</select>
+            <!-- Replace text inputs with dropdowns -->
+            <label for="murderer">Murderer:</label>
+            <select id="murderer">
+                <option value="Suspect A">Suspect A</option>
+                <option value="Suspect B">Suspect B</option>
+                <option value="Suspect C">Suspect C</option>
+                <option value="Suspect D">Suspect D</option>
+            </select>
 
-<label for="weapon">Weapon:</label>
-<select id="weapon">
-    <option value="Weapon X">Weapon X</option>
-    <option value="Weapon Y">Weapon Y</option>
-    <option value="Weapon Z">Weapon Z</option>
-    <option value="Weapon W">Weapon W</option>
-</select>
+            <label for="weapon">Weapon:</label>
+            <select id="weapon">
+                <option value="Weapon X">Weapon X</option>
+                <option value="Weapon Y">Weapon Y</option>
+                <option value="Weapon Z">Weapon Z</option>
+                <option value="Weapon W">Weapon W</option>
+            </select>
 
-<label for="location">Location:</label>
-<select id="location">
-    <option value="The Enigmatic Gallery">The Enigmatic Gallery</option>
-    <option value="The Opulent Library">The Opulent Library</option>
-    <option value="The Mystical Garden">The Mystical Garden</option>
-    <option value="The Lavish Ballroom">The Lavish Ballroom</option>
-    <input type="submit" value="Submit Guess">
-</select>
-
+            <label for="location">Location:</label>
+            <select id="location">
+                <option value="The Enigmatic Gallery">The Enigmatic Gallery</option>
+                <option value="The Opulent Library">The Opulent Library</option>
+                <option value="The Mystical Garden">The Mystical Garden</option>
+                <option value="The Lavish Ballroom">The Lavish Ballroom</option>
+            </select>
+            <input type="submit" value="Submit Guess">
         </form>
     </div>
 
