@@ -9,7 +9,6 @@
 - [Solving the Mystery](#solving-the-mystery)
   - [User Guess](#user-guess)
   - [Checking Answers](#checking-answers)
-- [Visualization](#visualization)
 - [User Interaction](#user-interaction)
 - [How to Use](#how-to-use)
 - [Contributors](#contributors)
